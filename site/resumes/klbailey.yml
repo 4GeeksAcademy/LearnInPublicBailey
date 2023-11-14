@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kathy
+    last_name: Bailey Hines
+    
+    # Define yourself in 4-5 words
+    motto: Live the life you love. Love the life you live.
+    
+    # Focus
+    focus: Survival
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Took a deliberate hiatus to prioritize extensive international travel, followed by assuming primary caregiver responsibilities. 
+      Now returning to the workforce with renewed enthusiasm, dedication, and a strong background in technology and programming.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    # avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: klbailey.k@gmail.com #optional
+    phone: 786-562-7070 #optional
+    website: https://klbailey.github.io/KathyBaileyHines.github.io/ #optional
+    linkedin: https://www.linkedin.com/in/katherine-bailey-hines-011049257/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: examplehttps://github.com/klbailey
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      # - idiom: French
+      #   level: Professional
+
+      - idiom: Spanish
+        level: Beginner
+
+    # Interests or hobbies
+    interests:
+      - item: Surfing
+
+      - item: International travel
+
+      - item: Beach
+
+# Your previous education
+education:
+    - degree: BSBA in Computer Information Systems
+      university: Hawaii Pacific University
+      # optional
+      university_website: https://www.hpu.edu/
+      graduation: 2003
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Flood Underwriter
+      time: 2016 - 2017
+      company: Assurant, Scottsdale, AZ
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Evaluate risk to determine whether the risk is rated correctly. Analyze and collect pertinent 
+        information needed to issue a policy and responsible for rerating the risk to meet proper 
+        company and federal NFIP guidelines.
+
+    - role: Customer Development Team
+      time: 2012 - 2015
+      company: GoDaddy, Scottsdale, AZ
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Part of an inside sales team focused on consulting with and growing the business success of small 
+        business customers. Help customers leverage the power of the internet to expand their online 
+        presence and business success. Outbound phone consultations with customers, creating business 
+        recommendations and strategies.
+
+    - role: Administrative Assistant
+      time: 2011 - 2012
+      company: Olsten Staffing Services
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Answer phones, type legal documents, counsel customers, accounts receivable, cash journaling, 
+        conduct presentations to executive and employee groups in the community.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Currently enrolled in 4Geeks Academy - projects forthcoming.
+      Side Javascript projects consist of self-study with The Odin Project.
+      Side Python projects consist of self-study with Udemy.
+
+    assignments:
+      - title: Administrative Dashboard in JavaScript utilizing CSS Grid project
+        # optional
+        project_website: https://klbailey.github.io/AdminDashboard/index.html
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Python Web Scraping using Beautiful Soup
+        # optional
+        project_website: https://github.com/klbailey/Python-BeautifulSoup
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
